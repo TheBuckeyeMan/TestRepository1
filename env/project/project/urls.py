@@ -24,8 +24,11 @@ from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',PersonalDataView.as_view(),name='PersonalDataView')
+    path('',PersonalDataView.as_view(),name='PersonalDataView'),
 ]
+
+
+#This is an edit to test the capability of git
 
 
 
